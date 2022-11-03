@@ -44,7 +44,7 @@ airflow-heroku
 
 - Para el armado del data warehouse se crean las tablas relacionales de hecho y dimensión con sus respectivos Id´s y primary keys.
 
-1. tabla de hecho
+1. Tabla de hecho
 
 | col     | tipo   | key | 
 |---------|--------|-----|
@@ -56,9 +56,9 @@ airflow-heroku
 | Idcont  | int    | FK  |
 | IdVar   | int    | FK  |
 
-2. tablas de dimesiones
+2. Tablas de dimesiones
 
-income
+Income
 
 | col    | tipo   | key |
 |--------|--------|-----|
@@ -66,7 +66,7 @@ income
 | pais   | string | -   |
 | income | string | -   |
 
-geográfica
+Geográfica
 
 | col    | tipo   | key |
 |--------|--------|-----|
@@ -74,7 +74,7 @@ geográfica
 | pais   | string | -   |
 | región | string | -   |
 
-variables
+Variables
 
 | col    | tipo   | key |
 |--------|--------|-----|
